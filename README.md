@@ -5,26 +5,30 @@ ASM-agent实现彻底致盲javassist-RASP
 相关图片:
 1.采用传统openrasp-premain方式实现rasp，能够执行拦截
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c91784-5a22-4891-81bf-25a192d4daea/e7f688ee-5bc2-4058-af4e-be49c0a69ae5/Untitled.png)
+![image](https://github.com/cdxiaodong/ASM-hide-RASP/assets/84082748/49b60f8d-63fe-46b5-97ca-2916c989ab89)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c91784-5a22-4891-81bf-25a192d4daea/07007e6d-4119-49e0-9194-f94311c9d118/Untitled.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c91784-5a22-4891-81bf-25a192d4daea/3fe6e412-8459-491b-89c9-9c5531198126/Untitled.png)
+![image](https://github.com/cdxiaodong/ASM-hide-RASP/assets/84082748/b4563f75-dd7c-4c30-ba31-d37abdb8a3ba)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c91784-5a22-4891-81bf-25a192d4daea/c2bf73c7-b9d4-460e-a0ab-94deb5018508/Untitled.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c91784-5a22-4891-81bf-25a192d4daea/67e015f0-5df0-4664-b898-63ae21d315ff/Untitled.png)
+![image](https://github.com/cdxiaodong/ASM-hide-RASP/assets/84082748/67ac1604-8ad0-4708-897b-231a3f10a6a7)
+
+
+![image](https://github.com/cdxiaodong/ASM-hide-RASP/assets/84082748/aa6677bd-bbba-49f4-bf4d-fe9491b08f65)
+
 
 会拦截并跳转到我二开openrasp测试用的自定义拦截界面(ip临时测试手动修改的)
 
 1. 使用我们的asm-bypass-agent 进行attach
+![image](https://github.com/cdxiaodong/ASM-hide-RASP/assets/84082748/a48c5967-64a3-459f-9d4d-b5e4a6bf4b22)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c91784-5a22-4891-81bf-25a192d4daea/02cc113d-74e2-43cd-a178-a9cd2ba03b4a/Untitled.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c91784-5a22-4891-81bf-25a192d4daea/b7d61180-aaae-41bd-ba76-c0d892abfd0a/Untitled.png)
+
+
 
 此时再次访问测试漏洞靶场
+![image](https://github.com/cdxiaodong/ASM-hide-RASP/assets/84082748/e0c17bf6-df33-4522-abbe-b3b029b99c5d)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c91784-5a22-4891-81bf-25a192d4daea/c40febc1-214a-4d88-912c-b6cd95f14ae3/Untitled.png)
+
 
 成功bypass-openrasp
